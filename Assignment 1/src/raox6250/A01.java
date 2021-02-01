@@ -150,7 +150,7 @@ public class A01 {
 	public static void validSnFile(Scanner fileIn, PrintStream goodSns, PrintStream badSns) {
         while(fileIn.hasNextLine()) {
             String next = fileIn.nextLine();
-            if(OldA01.validSn(next))
+            if(A01.validSn(next))
             	goodSns.println(next);
             
             else
