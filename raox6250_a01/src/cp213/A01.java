@@ -1,4 +1,4 @@
-package raox6250; // Replace with your login name 
+package cp213;
 
 import java.io.PrintStream;
 import java.util.Scanner;
