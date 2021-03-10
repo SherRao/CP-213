@@ -1,0 +1,67 @@
+Testing Food.originsMenu()
+Origins
+ 0 Canadian
+ 1 Chinese
+ 2 Indian
+ 3 Ethiopian
+ 4 Mexican
+ 5 Greek
+ 6 Japanese
+ 7 Italian
+ 8 Moroccan
+ 9 Scottish
+10 Columbian
+11 English
+-----------------------------------
+
+Testing Food.compareTo()
+a.compareTo(b): -1
+b.compareTo(a): 1
+b.compareTo(c): 0
+c.compareTo(b): 0
+-----------------------------------
+
+Testing Food.toString()
+Name:       Food A
+Origin:     2
+Vegetarian: false
+Calories:   1200
+Name:       Food B
+Origin:     7
+Vegetarian: true
+Calories:   500
+Name:       Food B
+Origin:     7
+Vegetarian: true
+Calories:   760
+Name:       Food D
+Origin:     9
+Vegetarian: false
+Calories:   320
+-----------------------------------
+
+Testing FoodUtilities.averageCalories(foods)
+1173
+-----------------------------------
+
+Testing FoodUtilities.averageCaloriesByOrigin(foods, 2)
+470
+-----------------------------------
+
+Testing FoodUtilities.getByOrigin(food, 2)
+Name:       Food B
+Origin:     7
+Vegetarian: true
+Calories:   500
+Name:       Food B
+Origin:     7
+Vegetarian: true
+Calories:   760
+Name:       Food H
+Origin:     7
+Vegetarian: true
+Calories:   150
+-----------------------------------
+
+Testing FoodUtilities.getFood()
+Name: 
